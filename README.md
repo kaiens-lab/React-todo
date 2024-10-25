@@ -5,4 +5,4 @@ Review React-related knowledge with a simple todo list.
 
 ### 🔍 概覽 Overview
 
-![Screenshot-desktop](./build/assets/images/Screenshot-desktop.png)
+![Screenshot-desktop](./Screenshot-desktop.png)
