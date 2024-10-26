@@ -4,7 +4,6 @@ import Input from "./Input";
 import TodoItem from "./TodoItem";
 
 function App() {
-  // 初始化 `todos` 狀態，從 localStorage 讀取，如果沒有則預設為空陣列
   const [todos, setTodos] = useState(() => {
     const storedTodos = localStorage.getItem("todos");
     return storedTodos ? JSON.parse(storedTodos) : [];
@@ -12,12 +11,10 @@ function App() {
 
   const [filterTodos, setFilterTodos] = useState(todos);
 
-  // 每當 `todos` 改變時，更新 localStorage
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos]);
 
-  // 當 `todos` 改變時，自動更新篩選後的 `filterTodos`
   useEffect(() => {
     setFilterTodos(todos);
   }, [todos]);

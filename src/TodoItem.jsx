@@ -54,8 +54,8 @@ const TodoItem = ({ todos, setTodos, filterTodos, setFilterTodos }) => {
         <span onClick={() => tagUndoHandler()}>Undo</span>
         <span onClick={() => tagCompletedHandler()}>Completed</span>
       </div>
-      {[...filterTodos] // 使用展開運算符創建新數組，避免直接修改原數組
-        .sort((a, b) => Number(a.completed) - Number(b.completed)) // 添加這行，將完成的排到後面
+      {[...filterTodos]
+        .sort((a, b) => Number(a.completed) - Number(b.completed))
         .map((todo) => (
           <div key={todo.id} className="todo-row hover-effect">
             {isEditing === todo.id ? (
