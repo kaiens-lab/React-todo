@@ -11,11 +11,11 @@ Review React-related knowledge with a simple todo list.
 
 ### 🔍 已完成部分 Completed Parts
 
-☑️ 編輯、刪除、存儲功能 Edit, delete, and save functionality
-☑️ 本地儲存 Local storage
+☑️ 編輯、刪除、存儲功能 Edit, delete, and save functionality  
+☑️ 本地儲存 Local storage  
 ☑️ 標籤篩選事項完成狀態 Filter tasks by tags and completion status
 
 ### 🔍 未完成部分 Completed Parts
 
-◽️ 日夜模式切換 Dark and light mode toggle
+◽️ 日夜模式切換 Dark and light mode toggle  
 ◽️ RWD Responsive Web Design (RWD)
