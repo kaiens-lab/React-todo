@@ -13,9 +13,6 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
-  }, [todos]);
-
-  useEffect(() => {
     setFilterTodos(todos);
   }, [todos]);
 
